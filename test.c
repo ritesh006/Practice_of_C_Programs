@@ -1,33 +1,35 @@
-#include <stdio.h>
+# include <stdio.h>
 
-//int prime_factor();
 int main()
 {
-    int prime,i,ans,count=0;
-    printf("Enter any integer: ");
-    scanf("%d",&prime);
+    int num,i,ans,j,prime,count=0;
 
-    for (i=1;  i<=prime; i++)
+    printf("Enter number: ");
+    scanf("%d",&num);
+
+    for (i=1; i<=num; i++)
     {
-        ans = prime%i;
-        printf("%d  %d\n",ans,i);
-
-        if (ans==0)
+        ans=num%i;
+        if(ans==0)
         {
-            count++;
-        }
+            j=i;
+            //printf("factor is %d\n",i);
+        }   
+        for (j=2;  j<=i; j++)
+            {
+                prime= i%j;
+                
+
+                if (prime==0)
+                {
+                    printf("%d  \n",j);
+                    
+                }
+                
+            }        
     }
-        printf("count is  %d\n",count);
-
-        if(count==2)
-        {
-            printf("Your Number is prime");
-        }
-        else
-        {
-            printf("Your Number is Not prime");
-        }
-
-
-    return 0;
+      
+       return 0;   
 }
+    
+    
