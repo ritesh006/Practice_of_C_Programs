@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-float circle(float, float);       //declare funtion prototype
+float circle();       //declare funtion prototype
 int main()
 {
     float rad,dia;                          // initialise variable
