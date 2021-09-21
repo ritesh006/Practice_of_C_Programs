@@ -4,3 +4,6 @@
 
 
 (2) Write a C program to find cube of any number using function. 
+
+
+(3) Write a C program to find diameter, circumference and area of circle using   functions.

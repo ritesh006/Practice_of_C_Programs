@@ -30,4 +30,24 @@ int leap(int year)
 
 
 
-/*(2) Write a C program to find cube of any number using function.
+/*(2) Write a C program to find cube of any number using function.*/ 
+
+#include <stdio.h>
+int cube();         // prototype the function
+int main()          // initialize the main 
+{
+    int num,ans;      // variable declaration 
+    printf("Enter Number: ");    // printing order for user
+    scanf("%d",&num);              // taking int value from user 
+
+    ans = cube(num);                // calling the function cube    
+    
+    printf("your cube of %d is: %d",num,ans);  // printing the output 
+}
+int cube (int a, int b)
+{
+    b = a*a*a;    // calculation for cube 
+    return b;     // return int value to the main in called function 
+}
+
+
