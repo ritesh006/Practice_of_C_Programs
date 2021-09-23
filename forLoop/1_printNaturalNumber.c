@@ -1,3 +1,5 @@
+/*(1) Write a C program to print all natural numbers from 1 to n. - using loop*/
+
 #include<stdio.h>
 
 int main()
