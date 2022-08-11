@@ -28,7 +28,7 @@ int leap(int year)
         return 0;
 }
 
-
+/*-------------------------------------------------------- Question 1 end ---------------------------------------------------------------- */
 
 /*(2) Write a C program to find cube of any number using function.*/ 
 
@@ -50,6 +50,7 @@ int cube (int a, int b)
     return b;     // return int value to the main in called function 
 }
 
+/*-------------------------------------------------------- Question 2 end ---------------------------------------------------------------- */
 
 
 /* (3) Write a C program to find diameter, circumference and area of circle
@@ -99,3 +100,4 @@ double getArea(double rad, double area)  // declare function definition
 
      return area;                          // return value of area  
 }
+/*-------------------------------------------------------- Question 3 end ---------------------------------------------------------------- */
